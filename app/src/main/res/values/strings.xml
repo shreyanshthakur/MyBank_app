@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">SQLite application 2</string>
     <string name="customer_s_list">Customer\'s List</string>
+    <string name="customer_details">Customer Details</string>
+    <string name="userprofilephoto">UserProfilePhoto</string>
+    <string name="name">Name :</string>
+    <string name="akshay_saxena">Akshay Saxena</string>
+    <string name="email">Email :</string>
+    <string name="akshay_gmail_com">akshay@gmail.com</string>
 </resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    tools:context=".UserData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/customer_details"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <ImageView
+             android:layout_width="300dp"
+             android:layout_height="300dp"
+             android:src="@drawable/ic_baseline_person_24"
+             android:layout_gravity="center"
+             android:layout_marginTop="30dp"
+            android:contentDescription="@string/userprofilephoto" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="25sp"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/akshay_saxena"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textSize="23sp"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/akshay_gmail_com"
+                android:textSize="23sp"
+                android:paddingStart="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account no. :"
+                android:textSize="23dp"
+                android:paddingStart="20dp"/>
+            <TextView
+                android:id="@+id/account_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XXXXXXXX7234"
+                android:textSize="23dp"
+                android:paddingStart="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact no. :"
+                android:textSize="23dp"
+                android:paddingStart="20dp"/>
+            <TextView
+                android:id="@+id/phone_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7898678756"
+                android:textSize="23dp"
+                android:paddingStart="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balance : Rs."
+                android:textSize="23dp"
+                android:paddingStart="20dp"/>
+            <TextView
+                android:id="@+id/avail_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4000"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/-"
+                android:textSize="23dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnTransferMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transfer Money"
+            android:textSize="20dp"
+            android:backgroundTint="@color/money_Green_dark"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Powered by ShreyLabs"
+            android:textSize="17dp"
+            android:gravity="center_horizontal" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
