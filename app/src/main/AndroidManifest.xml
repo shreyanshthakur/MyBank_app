@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sqliteapplication2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        android:label="MyBank"
+        android:roundIcon="@drawable/ic_baseline_attach_money_24"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SQLiteApplication2">
+        <activity android:name=".UsersList"></activity>
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

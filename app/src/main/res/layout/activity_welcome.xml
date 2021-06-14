@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/welcometxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Mybank"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:id="@+id/btnviewAllCus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Customers ->"
+        android:textSize="24dp"
+        android:layout_below="@id/welcometxt"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"/>
+    <Button
+        android:id="@+id/btnviewAllTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction History ->"
+        android:textSize="24dp"
+        android:layout_below="@id/btnviewAllCus"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered by ShreyLabs"
+        android:textSize="17dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"/>
+
+</RelativeLayout>

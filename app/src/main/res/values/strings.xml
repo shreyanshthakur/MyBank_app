@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SQLite application 2</string>
+    <string name="customer_s_list">Customer\'s List</string>
+</resources>
