@@ -17,7 +17,7 @@
 
         <ImageView
              android:layout_width="match_parent"
-             android:layout_height="100dp"
+             android:layout_height="200dp"
              android:src="@drawable/ic_baseline_person_24"
              android:layout_gravity="center"
             android:contentDescription="@string/userprofilephoto" />
@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center"
+            android:layout_marginTop="10dp"
             android:padding="2dp">
 
             <TextView
@@ -78,13 +79,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Account no. : XXXXXXX"
-                android:textSize="23dp"/>
+                android:textSize="23sp"/>
             <TextView
                 android:id="@+id/account_no"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="7234"
-                android:textSize="23dp"/>
+                android:textSize="23sp"/>
 
         </LinearLayout>
 
@@ -99,13 +100,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Contact no. : "
-                android:textSize="23dp"/>
+                android:textSize="23sp"/>
             <TextView
                 android:id="@+id/phone_no"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="7898678756"
-                android:textSize="23dp"/>
+                android:textSize="23sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -119,7 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Balance : Rs."
-                android:textSize="23dp" />
+                android:textSize="23sp" />
             <TextView
                 android:id="@+id/avail_balance"
                 android:layout_width="wrap_content"
@@ -139,14 +140,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Transfer Money"
-            android:textSize="17dp"
+            android:textSize="17sp"
+            android:layout_marginTop="40dp"
             android:backgroundTint="@color/money_green_dark" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="Powered by ShreyLabs"
-            android:textSize="14dp"
-            android:gravity="center_horizontal" />
+            android:textSize="14sp"
+            android:gravity="center|bottom" />
 
 </LinearLayout>

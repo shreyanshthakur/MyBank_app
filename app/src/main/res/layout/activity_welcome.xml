@@ -16,13 +16,13 @@
         android:layout_marginTop="20dp"
         android:text="Welcome To Mybank"
         android:textColor="@color/cardview_dark_background"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/moneyLogo"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="300dp"
         android:layout_alignBottom="@id/welcometxt"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/ic_baseline_attach_money_24" />
@@ -33,10 +33,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/moneyLogo"
         android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="@color/money_green_dark"
         android:padding="5dp"
         android:text="View All Customers ->"
-        android:textSize="16dp" />
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnviewAllTrans"
@@ -48,14 +49,13 @@
         android:backgroundTint="@color/money_green_dark"
         android:padding="5dp"
         android:text="Transaction History ->"
-        android:textSize="16dp" />
+        android:textSize="16sp" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:gravity="center_horizontal"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
         android:text="Powered by ShreyLabs"
-        android:textSize="14dp" />
+        android:textSize="14sp" />
 
 </LinearLayout>

@@ -13,13 +13,20 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
-        Button button;
-        button = findViewById(R.id.btnviewAllCus);
-        button.setOnClickListener(v -> startListShowActivity());
+        Button btnAllUsers,btnTransactions;
+        btnAllUsers = findViewById(R.id.btnviewAllCus);
+        btnTransactions = findViewById(R.id.btnviewAllTrans);
+        btnAllUsers.setOnClickListener(v -> startListShowActivity());
+        btnTransactions.setOnClickListener(v -> startTransactionsHistoryActivity());
 
     }
     public void startListShowActivity(){
         Intent intent = new Intent(this, UsersList.class);
+        startActivity(intent);
+    }
+
+    public void startTransactionsHistoryActivity(){
+        Intent intent = new Intent(this, TransactionHistory.class);
         startActivity(intent);
     }
 }
