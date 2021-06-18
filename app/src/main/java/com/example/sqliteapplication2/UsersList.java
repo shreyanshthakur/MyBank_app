@@ -46,7 +46,7 @@ public class UsersList extends AppCompatActivity {
 
         Cursor cursor = new Myhelper(this).readAllData();
 
-        int phoneNoColumnIndex = cursor.getColumnIndex(UserEntry.COLUMN_USER_NAME);
+        int phoneNoColumnIndex = cursor.getColumnIndex(UserEntry.COLUMN_USER_PHONE_NO);
         int emailColumnIndex = cursor.getColumnIndex(UserEntry.COLUMN_USER_EMAIL);
         int accountNumberColumnIndex = cursor.getColumnIndex(UserEntry.COLUMN_USER_ACCOUNT_NUMBER);
         int nameColumnIndex = cursor.getColumnIndex(UserEntry.COLUMN_USER_NAME);

@@ -7,7 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="money_green_extraDark">#03552C</color>
-    <color name="money_Green_dark">#08713D</color>
-    <color name="money_green_light">#118C4F</color>
+    <color name="money_green_dark">#118C4F</color>
+    <color name="money_green_light">#006A36</color>
+
 </resources>

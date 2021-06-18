@@ -3,7 +3,6 @@ package com.example.sqliteapplication2;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Build;
-import android.service.autofill.UserData;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -47,7 +46,6 @@ public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.ViewHo
 
 
     @SuppressLint("DefaultLocale")
-    @RequiresApi(api = Build.VERSION_CODES.P)
     @Override
     public void onBindViewHolder(@NonNull UserListAdapter.ViewHolder viewHolder, int position) {
         viewHolder.itemView.setTag(userArrayList.get(position));
