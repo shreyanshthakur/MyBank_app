@@ -9,11 +9,11 @@
         android:roundIcon="@drawable/ic_baseline_attach_money_24"
         android:supportsRtl="true"
         android:theme="@style/Theme.SQLiteApplication2">
-        <activity android:name=".TransactionHistory"></activity>
-        <activity android:name=".SendToUserList" />
-        <activity android:name=".UserData" />
-        <activity android:name=".UsersList" />
-        <activity android:name=".WelcomeActivity">
+        <activity android:name=".Activities.TransactionHistory"></activity>
+        <activity android:name=".Activities.SendToUserList" />
+        <activity android:name=".Activities.UserData" />
+        <activity android:name=".Activities.UsersList" />
+        <activity android:name=".Activities.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.example.sqliteapplication2;
+package com.example.sqliteapplication2.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.sqliteapplication2.R;
 
 public class UserData extends AppCompatActivity {
 
@@ -51,7 +53,7 @@ public class UserData extends AppCompatActivity {
 
     private void enterAmount(){
         final AlertDialog.Builder mBuilder = new AlertDialog.Builder(this);
-        View mView = getLayoutInflater().inflate(R.layout.dialog_box, null);
+        View mView = getLayoutInflater().inflate(R.layout.transaction_dialog_box, null);
         mBuilder.setTitle("Enter Amount").setView(mView).setCancelable(false);
 
         final EditText mAmount = mView.findViewById(R.id.enter_money);

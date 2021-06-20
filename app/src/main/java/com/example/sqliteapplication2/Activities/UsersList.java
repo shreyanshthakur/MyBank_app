@@ -1,4 +1,4 @@
-package com.example.sqliteapplication2;
+package com.example.sqliteapplication2.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -8,7 +8,12 @@ import android.database.Cursor;
 import android.os.Bundle;
 
 import java.util.ArrayList;
-import com.example.sqliteapplication2.UserContract.UserEntry;
+
+import com.example.sqliteapplication2.Adapters.UserListAdapter;
+import com.example.sqliteapplication2.DatabaseHelper.Myhelper;
+import com.example.sqliteapplication2.R;
+import com.example.sqliteapplication2.Data.User;
+import com.example.sqliteapplication2.DatabaseHelper.UserContract.UserEntry;
 
 public class UsersList extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.sqliteapplication2;
+package com.example.sqliteapplication2.Data;
 
 public class Transaction {
     private String fromUser;

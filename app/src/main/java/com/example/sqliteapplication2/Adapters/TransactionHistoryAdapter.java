@@ -1,4 +1,4 @@
-package com.example.sqliteapplication2;
+package com.example.sqliteapplication2.Adapters;
 
 import android.annotation.SuppressLint;
 import android.graphics.Color;
@@ -10,6 +10,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.sqliteapplication2.R;
+import com.example.sqliteapplication2.Data.Transaction;
 
 import java.util.ArrayList;
 

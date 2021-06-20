@@ -1,4 +1,4 @@
-package com.example.sqliteapplication2;
+package com.example.sqliteapplication2.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -10,6 +10,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.sqliteapplication2.Adapters.TransactionHistoryAdapter;
+import com.example.sqliteapplication2.R;
+import com.example.sqliteapplication2.Data.Transaction;
+import com.example.sqliteapplication2.DatabaseHelper.TransactionContract;
+import com.example.sqliteapplication2.DatabaseHelper.TransactionHelper;
 
 import java.util.ArrayList;
 

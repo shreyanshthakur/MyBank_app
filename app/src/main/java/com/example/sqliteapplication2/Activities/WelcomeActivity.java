@@ -1,10 +1,12 @@
-package com.example.sqliteapplication2;
+package com.example.sqliteapplication2.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+
+import com.example.sqliteapplication2.R;
 
 public class WelcomeActivity extends AppCompatActivity {
 

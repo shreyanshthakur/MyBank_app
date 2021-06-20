@@ -1,16 +1,18 @@
-package com.example.sqliteapplication2;
+package com.example.sqliteapplication2.Adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.sqliteapplication2.R;
+import com.example.sqliteapplication2.Data.User;
+import com.example.sqliteapplication2.Activities.UserData;
 
 import java.util.ArrayList;
 
@@ -40,7 +42,7 @@ public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.ViewHo
     @NonNull
     @Override
     public UserListAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
-        View view = LayoutInflater.from (viewGroup.getContext()).inflate(R.layout.item, viewGroup, false);
+        View view = LayoutInflater.from (viewGroup.getContext()).inflate(R.layout.users_list_item, viewGroup, false);
         return new ViewHolder(view);
     }
 

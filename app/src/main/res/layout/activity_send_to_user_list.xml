@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SendToUserList">
+    tools:context=".Activities.SendToUserList">
 
     <TextView
         android:layout_width="match_parent"
@@ -19,6 +19,6 @@
         android:id="@+id/send_to_users_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:listitem="@layout/item"/>
+        tools:listitem="@layout/users_list_item"/>
 
 </LinearLayout>

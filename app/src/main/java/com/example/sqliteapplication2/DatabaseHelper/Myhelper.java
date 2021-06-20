@@ -1,13 +1,12 @@
-package com.example.sqliteapplication2;
+package com.example.sqliteapplication2.DatabaseHelper;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.example.sqliteapplication2.UserContract.UserEntry;
+import com.example.sqliteapplication2.DatabaseHelper.UserContract.UserEntry;
 
 
 public class Myhelper extends SQLiteOpenHelper {

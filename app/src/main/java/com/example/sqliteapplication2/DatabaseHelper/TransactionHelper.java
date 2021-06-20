@@ -1,11 +1,11 @@
-package com.example.sqliteapplication2;
+package com.example.sqliteapplication2.DatabaseHelper;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.sqliteapplication2.TransactionContract.TransactionEntry;
+import com.example.sqliteapplication2.DatabaseHelper.TransactionContract.TransactionEntry;
 
 public class TransactionHelper extends SQLiteOpenHelper {
 

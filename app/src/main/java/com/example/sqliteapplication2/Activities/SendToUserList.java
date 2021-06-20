@@ -1,4 +1,4 @@
-package com.example.sqliteapplication2;
+package com.example.sqliteapplication2.Activities;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,8 +12,14 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.widget.Toast;
-import com.example.sqliteapplication2.UserContract.UserEntry;
-import com.example.sqliteapplication2.TransactionContract.TransactionEntry;
+
+import com.example.sqliteapplication2.Adapters.SendToUserAdapter;
+import com.example.sqliteapplication2.DatabaseHelper.Myhelper;
+import com.example.sqliteapplication2.R;
+import com.example.sqliteapplication2.DatabaseHelper.TransactionHelper;
+import com.example.sqliteapplication2.Data.User;
+import com.example.sqliteapplication2.DatabaseHelper.UserContract.UserEntry;
+import com.example.sqliteapplication2.DatabaseHelper.TransactionContract.TransactionEntry;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

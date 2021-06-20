@@ -1,4 +1,4 @@
-package com.example.sqliteapplication2;
+package com.example.sqliteapplication2.Adapters;
 
 
 import android.annotation.SuppressLint;
@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.sqliteapplication2.R;
+import com.example.sqliteapplication2.Data.User;
 
 import java.util.ArrayList;
 
@@ -24,7 +27,7 @@ public class SendToUserAdapter extends RecyclerView.Adapter<SendToUserAdapter.Vi
     @NonNull
     @Override
     public SendToUserAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
-        View view = LayoutInflater.from (viewGroup.getContext()).inflate(R.layout.item, viewGroup, false);
+        View view = LayoutInflater.from (viewGroup.getContext()).inflate(R.layout.users_list_item, viewGroup, false);
         return new ViewHolder(view, onUserListener);
     }
 
